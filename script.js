@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyCIp53Nl4SphqxSZOcOO1-Z2CsBRNLC7YQ'; // Replace with your actual YouTube API key
+const API_KEY = ''; // Replace with your actual YouTube API key
 
 // Function to fetch search results from YouTube API
 function fetchSearchResults(keyword) {
