@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         spinnerEl.style.display = 'block'; // Show spinner
 
-        const apiKey = ''; //
-        const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(keyword)}&key=${apiKey}`;
+        const API_KEY = ''; //
+        const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(keyword)}&key=${API_KEY}`;
 
         fetch(apiUrl)
             .then(response => response.json())
