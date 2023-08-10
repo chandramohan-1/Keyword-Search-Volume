@@ -11,10 +11,11 @@
         <h1>Keyword Search Volume Checker</h1>
         <form id="searchForm">
             <label for="keyword">Enter Keyword:</label>
-            <input type="text" id="keyword" required>
-            <button type="submit">Search</button>
+            <input type="text" id="keywordInput" required>
+            <button type="button" id="searchButton">Search</button>
         </form>
-        <div id="searchVolumeResult" class="result"></div>
+        <div id="searchResult" class="result"></div>
+        <div id="spinner" class="spinner"></div>
     </div>
 
     <script src="script.js"></script>
